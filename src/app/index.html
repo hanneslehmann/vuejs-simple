@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Start</title>
+    <script src="../../js/vue.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <single-file-component></single-file-component>
+    </div>
+    <script type="module" src="SingleFileComponent.js"></script>
+    <script type="module" src="app.js"></script>
+    <script nomodule>
+        document.getElementById("app").innerHTML = "Your browser doesn't support JavaScript modules :(";
+    </script>
+</body>
+
+</html>
